@@ -1,0 +1,138 @@
+ {
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 16px; 
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default list styles */
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  vertical-align: top;
+}
+
+button {
+  all: unset;              
+  display: inline-block;   
+  box-sizing: border-box;  
+  cursor: pointer;         
+  font: inherit;           
+  line-height: normal;     
+  text-align: center;           
+}
+
+
+:root {
+    --button-right-hover: hsl(233, 100%, 69%);
+    --button-right: hsl(300, 41%, 48%);
+
+    --button-left-hover: hsl(171, 66%, 44%);
+    --button-left: hsl(92, 75%, 48%);
+
+    --s-margin: 5%;
+    --s2-margin: ;
+    --s25-margin: ;
+    --s3-margin: ;
+
+    --text-color1: hsl(210, 10%, 33%);
+    --text-color2: hsl(201, 11%, 66%);
+    --text-color3: white;
+}
+
+.button-right-hover {
+    background-color: var(--button-right-hover);
+}
+
+.button-right {
+    background-color: var(--button-right);
+}
+
+.button-left-hover {
+    background-color: var(--button-left-hover);
+}
+
+.button-left {
+    background-color: var(--button-left);
+}
+
+.text-color1 {
+    color: var(--text-color1)
+}
+
+.text-color2 {
+    color: var(--text-color2);
+}
+
+.text-color3 {
+    color: var(--text-color3);
+}
+
+.font-family1 {
+    font-family: 'Inter', sans-serif;
+}
+
+.header-desktop-blackish-wave {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 20%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+.first-card {
+    display: block;
+    margin: var(--s-margin) auto;
+    width: 40%;
+    text-align: center;
+
+}
+
+.logo-of-company {
+    display: block;
+    margin: 0% auto;
+    width: 13%;
+    height: auto;
+}
+
+.text-body-card1 {
+    padding-top: 1px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.button-group1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4rem;
+    height: auto;
+    width: auto;
+}
+
+.first-first-button {
+    height: 50px;
+    padding: 10px;
+    border-bottom-left-radius: 40%;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
